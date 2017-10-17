@@ -29,6 +29,5 @@ public class Project {
             }
         }
         return (sim.length==anzahl);
-        
     }
 }
