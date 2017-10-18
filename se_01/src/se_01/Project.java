@@ -15,6 +15,7 @@ public class Project {
                 }
             }
             
+            // das ist eine ännderung
         }
         for( int i=0; i<sim.length;i++){
             for( int j=0; j<test.length; j++){
@@ -30,4 +31,5 @@ public class Project {
         }
         return (sim.length==anzahl);
     }
+  System.println(" änderung");
 }
