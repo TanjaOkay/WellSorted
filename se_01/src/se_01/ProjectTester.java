@@ -114,5 +114,29 @@ public class ProjectTester {
   public void test_complex_graph_2() {
     assertFalse(complex_graph.isWellSorted(new String[]{"A","B","F","D","E","C","G"}));
   }
+  
+//Eigene Test
+ @Test
+ public void test_complex_graph_3() {
+   assertFalse(complex_graph.isWellSorted(new String[]{"A","B","G","D","E","C","F"}));
+ }
+ 
+ @Test
+ public void test_complex_graph_4() {
+   assertFalse(complex_graph.isWellSorted(new String[]{"G","B","F","D","E","C","A"}));
+ }
+ @Test
+ public void test_complex_graph_5() {
+   assertFalse(complex_graph.isWellSorted(new String[]{"A","B","F","D","E","C","A"}));
+ }
+ 
+ @Test
+ public void test_simple_example_10() {
+   assertTrue(simple_example.isWellSorted(new String[]{"W", "X", "Y", "Z"}));
+ }
+ @Test
+ public void test_simple_example_11() {
+   assertFalse(simple_example.isWellSorted(new String[]{"X", "X", "X", "X"}));
+ }
 }
     
